@@ -336,7 +336,7 @@
           "id": "thomas-mack",
           "outlines": [
             {
-              "outlineUrl": "https://nba-dev.configs.quintar.ai/mba/outlines/Observatory_Arena/court0-arrow.json",
+              "outlineUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/court0-arrow-uk.json",
               "color": "#009FDB",
               "opacity": 1,
               "radius": 0.3
