@@ -272,7 +272,7 @@
       "fops": [
         {
           "id": "mat",
-          "apiEntrypointUrl": "http://34.229.122.201:7777/platform",
+          "apiEntrypointUrl": "http://23.31.148.90:7777/platform",
           "apiEntrypointUrlold": "https://nba-dev.platform.quintar.ai/gleague-Apr10/platform",
           "AWS_apiEntrypointUrl": "https://pgat-stag.platform.quintar.ai/multisport/platform",
           "AZURE_apiEntrypointUrl": "https://nba-app-gateway-dev.platform.quintar.ai/platform/",
