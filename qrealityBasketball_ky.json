@@ -288,8 +288,8 @@
           "longSecs": 30,
           "mediumSecs": 10,
           "shortSecs": 7,
-          "testImageUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.jpeg",
-          "testJsonUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.json"
+          "testImageUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image.jpg",
+          "testJsonUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image.json"
         }
       ]
     },
