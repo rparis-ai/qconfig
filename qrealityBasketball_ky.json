@@ -288,8 +288,8 @@
           "longSecs": 30,
           "mediumSecs": 10,
           "shortSecs": 7,
-          "testImageUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image.jpg",
-          "testJsonUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image.json"
+          "testImageUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image_orig.jpg",
+          "testJsonUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/ky_test_image_orig.json"
         }
       ]
     },
