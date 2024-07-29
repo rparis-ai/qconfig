@@ -333,7 +333,7 @@
       "cpuImageHeight": 1080,
       "fops": [
         {
-          "id": "thomas-mack",
+          "id": "mat",
           "outlines": [
             {
               "outlineUrl": "https://nba-dev.configs.quintar.ai/mba/outlines/Observatory_Arena/court0-arrow.json",
