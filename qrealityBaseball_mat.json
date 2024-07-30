@@ -1,0 +1,617 @@
+{
+  "arUiView": {
+    "sport": "baseball",
+    "experiences": [
+      {
+        "type": "VENUE",
+        "messages": {
+          "defaultErrorMessage": "Unable to process the request",
+          "excessiveMotionDesc": "Please hold phone still and point at court",
+          "excessiveMotionTitle": "Tracking lost due to excessive motion",
+          "initFailedCanTryAgainMessage": "Unable to enter AR",
+          "initFailedFinalMessage": "Unable to enter AR",
+          "initFailedTitle": "Something went wrong",
+          "liveDataAvailableMessage": "The game data is available",
+          "networkAvailableMessage": "Internet connection is restored.",
+          "networkNotAvailableMessage": "Internet connection is not available, try again once the connection is restored",
+          "networkNotAvailableTitle": "Unable to Connect",
+          "noNetworkDescription": "Please connect to the internet and try again. If the problem persists, don't worry, we're on it and the experience will be back up soon.",
+          "noNetworkTitle": "Unable to Connect",
+          "outOfArenaDescription": "You are not in the arena",
+          "outOfArenaTitle": "Out of the arena",
+          "outOfPoseDesc": "Point towards the court and register",
+          "outOfPoseTitle": "Please try again",
+          "propsyncErrorMessage": "The game data is not available at the moment",
+          "regDescription": "Please connect to the internet and try again. If the problem persists, don't worry, we're on it and the experience will be back up soon.",
+          "registrationUnavailableDesc": "Registration Unavailable",
+          "registrationUnavailableTitle": "Please try again",
+          "regTitle": "Unable to Connect",
+          "connectingTitle": "Connect to Fenway",
+          "connectingMessage": "Connecting..."
+        },
+        "strikeZoneLegendBoard": [
+          {
+            "color": "#239B56",
+            "type": "B",
+            "textSize": 14
+          },
+          {
+            "color": "#00B9FC",
+            "type": "H",
+            "textSize": 14
+          },
+          {
+            "color": "#FF1C1C",
+            "type": "S",
+            "textSize": 14
+          },
+          {
+            "color": "#FF1C1C",
+            "type": "O",
+            "textSize": 14
+          }
+        ],
+        "greenMonsterItemConfigurables": {
+          "imageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/BetMG_@3x-bs-2.png",
+          "backgroundColor": "#2e4e43"
+        },
+        "floorTiles": {
+          "opacity": 1,
+          "scale": 1.3,
+          "isTeamTileVisible": false
+        },
+        "fontConfigurables": {
+          "positionSize": 18,
+          "nameSize": 13
+        },
+        "hitColors": {
+          "default": "#2471A3",
+          "H": "#00B9FC",
+          "1B": "#00B9FC",
+          "2B": "#00B9FC",
+          "3B": "#00B9FC",
+          "HR": "#239B56",
+          "O": "#FF1C1C",
+          "F": "#FF1C1C"
+        },
+        "pitchTrailAnimationDelay": 1,
+        "pitchColors": {
+          "default": "#2471A3",
+          "ball": "#239B56",
+          "hit": "#00B9FC",
+          "run": "#00B9FC",
+          "foul": "#FF1C1C",
+          "strike": "#FF1C1C",
+          "out": "#FF1C1C"
+        },
+        "sponsorLogo": {
+          "fops": [
+            {
+              "id": "daytona",
+              "orb": [
+                {
+                  "url": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/sponsorLogo/bars_orb_emissive.usdz",
+                  "scale": 0.35,
+                  "position": [
+                    42.75,
+                    42.75,
+                    -12.83
+                  ],
+                  "orientation": {
+                    "angle": 0,
+                    "axis": [
+                      1,
+                      0,
+                      0
+                    ]
+                  }
+                },
+                {
+                  "url": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/sponsorLogo/dk_green_animated.usdz_noshow",
+                  "scale": 0.05,
+                  "position": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "orientation": {
+                    "angle": 90,
+                    "axis": [
+                      1,
+                      0,
+                      0
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "greenMonsterLogos": [
+          {
+            "position": [
+              305,
+              125,
+              -26.5
+            ],
+            "length": 60,
+            "width": 1,
+            "height": 19,
+            "orientation": {
+              "angle": 90,
+              "axis": [
+                1,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "heatmap": {
+          "titleCard": {
+            "distanceFromCamera": 120,
+            "distanceFromFloor": 10,
+            "zoomAnimationSpeed": 1,
+            "toastText": "Tap to Zoom!",
+            "toastFontSize": 1.8,
+            "toastFontFamily": "OpenSans-ExtraBoldItalic",
+            "toastFontColor": "#FFFFFF",
+            "titleOpacity": 1,
+            "backgroundColor": "#000000",
+            "backgroundOpacity": 0.7,
+            "borderColor": "#ffffff",
+            "borderOpacity": 0.8,
+            "titleSize": 3.3,
+            "titleFontFamily": "OpenSans-ExtraBoldItalic",
+            "titleColor": "#FFFFFF",
+            "statSubduedSize": 3.4,
+            "statSubduedFontFamily": "OpenSans-Bold",
+            "statSubduedColor": "#FFFFFF",
+            "statSubduedOpacity": 0.8,
+            "statBrightSize": 3.4,
+            "statBrightFontFamily": "OpenSans-ExtraBold",
+            "statBrightColor": "#FFFFFF",
+            "statBrightOpacity": 1,
+            "teamsFontFamily": "OpenSans-ExtraBoldItalic",
+            "teamsFontColor": "#FFFFFF",
+            "teamsFontOpacity": 0.8,
+            "teamsFontSize": 3,
+            "dateFontFamily": "OpenSans-MediumItalic",
+            "dateFontColor": "#FFFFFF",
+            "dateFontOpacity": 0.8,
+            "dateFontSize": 3
+          },
+          "floorMarkers": {
+            "missed": {
+              "marker": "x",
+              "color": "#D02D09",
+              "opacity": 0.9
+            },
+            "made": {
+              "marker": "o",
+              "color": "#1CAF4E",
+              "opacity": 0.9
+            }
+          }
+        },
+        "homeTeamShot": {
+          "floorTileSuccess": {
+            "color": "#19b5fd",
+            "opacity": 0.6,
+            "scale": 1
+          },
+          "floorTileAttempt": {
+            "color": "#D02D09",
+            "opacity": 0.6,
+            "scale": 1
+          },
+          "batter": {
+            "ribbon": {
+              "color": "#ffffff",
+              "fadeInVisibility": 0,
+              "fadeInPercentage": 0,
+              "fadeOutVisibility": 0,
+              "fadeOutPercentage": 0,
+              "animationInterval": 0.05,
+              "radius": 0.3,
+              "opacity": 1,
+              "shadingOpacity": 0,
+              "shadingWidth": 0,
+              "animationSeconds": 2
+            },
+            "trail": {
+              "color": "#19fda4",
+              "opacity": 0.9,
+              "radius": 0.15,
+              "fadeInPercentage": 0.2,
+              "fadeOutPercentage": 0.2
+            }
+          },
+          "pitcher": {
+            "ribbon": {
+              "color": "#ffffff",
+              "fadeInVisibility": 0,
+              "fadeInPercentage": 0,
+              "fadeOutVisibility": 0,
+              "fadeOutPercentage": 0,
+              "animationInterval": 0.05,
+              "radius": 0.02,
+              "opacity": 1,
+              "shadingOpacity": 0.7,
+              "shadingWidth": 0.6,
+              "animationSeconds": 4
+            },
+            "trail": {
+              "color": "#19b5fd",
+              "opacity": 0.9,
+              "radius": 0.01,
+              "fadeInPercentage": 0,
+              "fadeOutPercentage": 0
+            }
+          }
+        },
+        "awayTeamShot": {
+          "floorTileSuccess": {
+            "color": "#19fda4",
+            "opacity": 0.6,
+            "scale": 1
+          },
+          "floorTileAttempt": {
+            "color": "#D02D09",
+            "opacity": 0.6,
+            "scale": 1
+          },
+          "batter": {
+            "ribbon": {
+              "color": "#ffffff",
+              "fadeInVisibility": 0,
+              "fadeInPercentage": 0,
+              "fadeOutVisibility": 0,
+              "fadeOutPercentage": 0,
+              "animationInterval": 0.05,
+              "radius": 0.3,
+              "opacity": 1,
+              "shadingOpacity": 0,
+              "shadingWidth": 0,
+              "animationSeconds": 2
+            },
+            "trail": {
+              "color": "#19fda4",
+              "opacity": 0.9,
+              "radius": 0.15,
+              "fadeInPercentage": 0.2,
+              "fadeOutPercentage": 0.2
+            }
+          },
+          "pitcher": {
+            "ribbon": {
+              "color": "#19fda4",
+              "fadeInVisibility": 0,
+              "fadeInPercentage": 0,
+              "fadeOutVisibility": 0,
+              "fadeOutPercentage": 0,
+              "animationInterval": 0.05,
+              "radius": 0.02,
+              "opacity": 1,
+              "shadingOpacity": 0.7,
+              "shadingWidth": 0.6,
+              "animationSeconds": 4
+            },
+            "trail": {
+              "color": "#19fda4",
+              "opacity": 0.9,
+              "radius": 0.01,
+              "fadeInPercentage": 0,
+              "fadeOutPercentage": 0
+            }
+          }
+        },
+        "strikeZone": {
+          "model": {
+            "catchersData": {
+              "initialScale": 1,
+              "minScale": 0.5,
+              "maxScale": 5,
+              "distanceFromUser": -2,
+              "distanceX": -0.9,
+              "distanceY": -0.7,
+              "initialRotation": 0
+            },
+            "pitchersData": {
+              "initialScale": 1,
+              "minScale": 0.5,
+              "maxScale": 5,
+              "distanceFromUser": -2,
+              "distanceX": -0.9,
+              "distanceY": -0.7,
+              "initialRotation": 280
+            }
+          },
+          "trace": {
+            "textSize": 7,
+            "textDepth": 0.01,
+            "sphereRadius": 0.03,
+            "statDistance": 0.06,
+            "pitchNumberDistance": 0.03,
+            "showStat": true,
+            "showPitchNumber": true,
+            "hidePitchNumberOnRotate": false,
+            "minRotateAngleToHideStats": 15
+          }
+        },
+        "teamTabConfigurables": {
+          "homeTeam": {
+            "name": "Mariners",
+            "selected": {
+              "logo": "https://www.mlbstatic.com/team-logos/136.svg",
+              "titleColor": "#FFFFFF",
+              "backgroundColor": "#BD3039"
+            },
+            "unselected": {
+              "logo": "https://www.mlbstatic.com/team-logos/136.svg"
+            }
+          },
+          "awayTeam": {
+            "name": "Dodgers",
+            "selected": {
+              "logo": "https://www.mlbstatic.com/team-logos/119.svg",
+              "titleColor": "FFFFFF",
+              "backgroundColor": "#0F235D"
+            },
+            "unselected": {
+              "logo": "https://www.mlbstatic.com/team-logos/119.svg"
+            }
+          }
+        },
+        "toastBoardConfigurables": {
+          "toastText": "Tap to Zoom!",
+          "toastFontSize": 1.8,
+          "toastFontFamily": "OpenSans-ExtraBoldItalic",
+          "toastFontColor": "#FFFFFF"
+        },
+        "leaderBoardConfigurables": {
+          "distanceFromCamera": 60,
+          "backgroundColor": "#000000",
+          "distanceFromFloor": 12,
+          "opacity": 0.7,
+          "endTitle": "GAME LEADERS",
+          "titleSize": 4.4,
+          "nameSize": 1.8,
+          "scrSize": 1.8,
+          "titleFontFamily": "OpenSans-ExtraBoldItalic",
+          "nameFontFamily": "OpenSans-ExtraBold",
+          "scrFontFamily": "OpenSans-ExtraBold",
+          "leaderBoardPositions": {
+            "HomeTeamA": [
+              0,
+              30,
+              30
+            ],
+            "HomeTeamB": [
+              0,
+              -30,
+              30
+            ],
+            "AwayTeamA": [
+              0,
+              30,
+              30
+            ],
+            "AwayTeamB": [
+              0,
+              -30,
+              30
+            ]
+          },
+          "colors": {
+            "hometeam": {
+              "highlight": "#19b5fd",
+              "title": "#19b5fd",
+              "titleBackground": "#FFFFFF",
+              "underscore": "#FFFFFF",
+              "underscoreOpacity": 0.8,
+              "name": "#FFFFFF",
+              "scr": "#FFFFFF"
+            },
+            "awayTeam": {
+              "highlight": "#19fda4",
+              "title": "#19fda4",
+              "titleBackground": "#FFFFFF",
+              "underscore": "#FFFFFF",
+              "underscoreOpacity": 0.8,
+              "name": "#FFFFFF",
+              "scr": "#FFFFFF"
+            }
+          }
+        },
+        "playCardConfigurables": {
+          "titleFontSize": 3.9,
+          "titleFontColor": "#FFFFFF",
+          "shotFontSize": 5.9,
+          "shotFontColor": "#FFFFFF",
+          "distanceFromFloor": 50,
+          "titleFontOpacity": 1.0,
+           "shotFontOpacity": 1.0,
+           "playerCardTypes": {
+            "singles": "Single",
+            "double": "Double",
+            "triple": "Triple",
+            "hit": "Hit",
+            "homeRun": "Home Run",
+            "out": "Out",
+              "foul": "Foul"
+     }
+          },
+        "playerCardConfigurables": {
+          "distanceFromCamera": 60,
+          "distanceFromFloor": 12,
+          "nameSize": 4.4,
+          "shotTypeSize": 3.2,
+          "scrSize": 6,
+          "backgroundColor": "#000000",
+          "backgroundOpacity": 0.7,
+          "shotTypeFontFamily": "OpenSans-ExtraBoldItalic",
+          "nameFontFamily": "OpenSans-ExtraBoldItalic",
+          "scrFontFamily": "OpenSans-ExtraBold",
+          "playerColors": {
+            "homeTeam": {
+              "name": "#19b5fd",
+              "shotType": "#FFFFFF",
+              "shotTypeBackground": "#FFFFFF",
+              "success": "#FFFFFF",
+              "attempt": "#FFFFFF",
+              "attemptOpacity": 0.6,
+              "highlight": "#19b5fd",
+              "scr": "#FFFFFF"
+            },
+            "awayTeam": {
+              "name": "#19fda4",
+              "shotType": "#FFFFFF",
+              "shotTypeBackground": "#FFFFFF",
+              "success": "#FFFFFF",
+              "attempt": "#FFFFFF",
+              "attemptOpacity": 0.6,
+              "endTitle": "#FFFFFF",
+              "highlight": "#19fda4",
+              "scr": "#FFFFFF"
+            }
+          }
+        },
+        "registrationFailureInterval": 5,
+        "debugInfoUpdateTime": 0.25,
+        "defaultExposureBias": -1,
+        "maxTrackingFailure": 3,
+        "connectTimeout": 60,
+        "maxVideoRecordLength": 34,
+        "shotTrailAnimationDelay": 0.025,
+        "experienceLayerColor": "#0095D2",
+        "bottomPanelThemeColor": "#0095D2",
+        "shotTypeRoundBorderColor": "#FFFFFF",
+        "zoomAnimationDelay": 0.5,
+        "tiltLimitLow": 45,
+        "tiltLimitHigh": 135,
+        "minLightLevel": 0,
+        "shotTrailInterval": 0.5,
+        "pitchTrailInterval": 0.5,
+        "delayBetweenPitchTraceAndHitTrace": 0.5,
+        "sponsorImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/sponser.png",
+        "gameLogoUrl": "",
+        "watermarkImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/G_League-ATT@2x.png",
+        "alertImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/Alerticon.png",
+        "recordingUploadOptionInterval": 8,
+        "watermarkPosition": "topLeft",
+        "watermarkOpacity": 0.75,
+        "watermarkScale": 1,
+        "watermarkAspectRatio": 1.46,
+        "iOSWatermarkImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/att_gl_watermark.png",
+        "iOSWatermarkPosition": "topLeft",
+        "iOSWatermarkOpacity": 0.75,
+        "iOSWatermarkAspectRatio": 1.46,
+        "iOSWatermarkScale": 1,
+        "connectingMessage": "Finding your seat...",
+        "isHeatmapEnable": true,
+        "defaultPlayerImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/PlayerImage.png",
+        "gameLogoPosition": "topLeft",
+        "isRecordFeatureEnable": true,
+        "courtsideBoardAnimationSpeed": 1,
+        "videoOrientation": {
+          "iPhone11iOS15.5": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+          "iPhone11iOS15.6": "1.0,0.0,0.0,1.0,0.0,0.0,true",
+          "iPhone11iOS16.0.2": "1.0,0.0,0.01.0,0.0,0.0,true",
+          "iPhone13iOS15": "0.5,1.0,-1.0,0.5,20.0,10.0,false",
+          "iPhone14iOS16.1.1": "0.0,1.0,1.0,0.0,0.0,0.0,true",
+          "iPhone14ProiOS16": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+          "iPhone14ProMaxiOS16.0.2": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+          "iPhone8iOS15.5": "0.0,-1.0,1.0,0.0,0.0,0.0,true"
+        },
+        "excessiveMotionThreshold": 3,
+        "isWatermarkAvailableAlways": true,
+        "iOSWatermarkImageUrls": {
+          "scale1x": "",
+          "scale2x": "",
+          "scale3x": ""
+        },
+        "maxNumInitAttempts": 3,
+        "initFailedCanTryAgainMessage": "Something went wrong",
+        "initFailedFinalMessage": "Unable to enter AR",
+        "poorNetworkMessage": "Poor network"
+      }
+    ]
+  },
+  "connect": {
+    "lid": "mlb",
+    "gid": "warriors",
+    "fops": [
+      {
+        "id": "mat",
+        "beast_apiEntrypointUrl": "http://23.31.148.90:7777/platform",
+        "apiEntrypointUrl": "http://23.31.148.90:7777/platform",
+        "AZURE_apiEntrypointUrl": "https://nba-app-gateway-dev.platform.quintar.ai/platform/",
+        "registrationDelay": 4,
+        "lightEstimationThreshold": 100,
+        "jpegCompression": 0.5,
+        "jpegScale": 0.4,
+        "confidenceHighThreshold": 61,
+        "confidenceIndex": 75,
+        "confidenceMediumThreshold": 31,
+        "confidenceThreshold": 50,
+        "fourcc": "Y420",
+        "longSecs": 30,
+        "mediumSecs": 10,
+        "shortSecs": 7,
+        "maxAttemptsBeforeReset": 3
+      }
+    ]
+  },
+  "sportData": {
+    "lid": "mlb",
+    "season": "2023",
+    "gid": "716597",
+    "preGID": "1522200006",
+    "apiEntrypointUrl": "https://vfxn1m2b9i.execute-api.us-east-1.amazonaws.com/dev/",
+    "apiEntrypointUrl1": "https://nbafuncappstag.azurewebsites.net/api/platform",
+    "liveDataUrl": "amqp://20.121.92.76",
+    "liveDataUrl2": "tcp://192.168.1.10:8001,tcp://192.168.1.10:8002",
+    "generic": 0,
+    "stag_generic": 0,
+    "genericData": {
+      "player": {
+        "homeFN": "Home",
+        "visitorFN": "Visitor",
+        "hs": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/PlayerGeneric.png"
+      },
+      "home": {
+        "na": "Home",
+        "ci": "Home",
+        "ab": "H",
+        "colors": "#91DC00",
+        "logo": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/H_Logo.png"
+      },
+      "visitor": {
+        "na": "Visitor",
+        "ci": "Visitor",
+        "ab": "V",
+        "colors": "#2bc1f9",
+        "logo": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/assets/V_Logo.png"
+      }
+    }
+  },
+  "test": {
+    "cpuImageWidth": 1920,
+    "cpuImageHeight": 1080,
+    "fops": [
+      {
+        "id": "mat",
+        "outlines": [
+          {
+            "outlineUrl": "https://raw.githubusercontent.com/rparis-ai/qconfig/main/MLB_contours.json",
+            "color": "#ff0000",
+            "opacity": 1
+          }
+        ],
+        "testImageUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/testimages/fenway_test1.jpg",
+        "testJsonUrl": "https://d39efl37kznd9d.cloudfront.net/mlb_sdk/testimages/fenway_test1.json"
+      }
+    ]
+  }
+}
