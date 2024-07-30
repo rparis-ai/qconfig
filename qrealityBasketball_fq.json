@@ -1,0 +1,350 @@
+{
+    "arUiView": {
+      "sport": "basketball",
+      "experiences": [
+        {
+          "type": "VENUE",
+          "messages": {
+            "regTitle": "Unable to Connect",
+            "propsyncErrorMessage": "The game data is not available at the moment",
+            "liveDataAvailableMessage": "The game data is available",
+            "defaultErrorMessage": "Unable to process the request",
+            "registrationUnavailableTitle": "Please try again",
+            "registrationUnavailableDesc": "Registration Unavailable",
+            "regDescription": "Please connect to the internet and try again. If the problem persists, don't worry, we're on it and the experience will be back up soon.",
+            "noNetworkTitle": "Unable to Connect",
+            "noNetworkDescription": "Please connect to the internet and try again. If the problem persists, don't worry, we're on it and the experience will be back up soon.",
+            "outOfArenaTitle": "Out of the arena",
+            "outOfArenaDescription": "You are not in the arena",
+            "outOfPoseTitle": "Please try again",
+            "outOfPoseDesc": "Point towards the court and register",
+            "excessiveMotionDesc": "Tracking lost due to excessive motion",
+            "excessiveMotionTitle": "Please try again"
+          },
+          "awayTeamShot": {
+            "ribbon": {
+                "color": "#19fda4",
+                "fadeInVisibility": 0.2,
+                "fadeInPercentage": 0.1,
+                "fadeOutVisibility": 0.2,
+                "fadeOutPercentage": 0.1,
+                "animationInterval": 0.05,
+                "radius": 0.20,
+                "opacity": 1.0,
+                "shadingOpacity": 0.7,
+                "shadingWidth": 0.6,
+                "animationSeconds": 4.0
+            },
+            "floorTileSuccess": {
+              "color": "#19fda4",
+              "opacity": 0.6,
+              "scale": 1
+            },
+            "floorTileAttempt": {
+              "color": "#D02D09",
+              "opacity": 0.6,
+              "scale": 1
+            },
+            "trail": {
+              "color": "#19fda4",
+              "opacity": 0.9,
+              "radius": 0.15,
+              "fadeInPercentage": 0.2,
+              "fadeOutPercentage": 0.2
+            }
+          },
+          "homeTeamShot": { 
+  "ribbon": {
+    "color": "#19b5fd",
+    "fadeInVisibility": 0.2,
+    "fadeInPercentage": 0.1,
+    "fadeOutVisibility": 0.2,
+    "fadeOutPercentage": 0.1,
+    "animationInterval": 0.05,
+    "radius": 0.20,
+    "opacity": 1.0,
+    "shadingOpacity": 0.7,
+    "shadingWidth": 0.6,
+    "animationSeconds": 4.0
+},
+            "floorTileSuccess": {
+              "color": "#19b5fd",
+              "opacity": 0.6,
+              "scale": 1
+            },
+            "floorTileAttempt": {
+              "color": "#D02D09",
+              "opacity": 0.6,
+              "scale": 1
+            },
+            "trail": {
+              "color": "#19b5fd",
+              "opacity": 0.9,
+              "radius": 0.15,
+              "fadeInPercentage": 0.2,
+              "fadeOutPercentage": 0.2
+            }
+          },
+          "heatmap": {
+            "titleCard": {
+              "distanceFromCamera": 120,
+              "distanceFromFloor": 10,
+              "zoomAnimationSpeed": 1.0,
+              "toastText": "Tap to Zoom!",
+              "toastFontSize": 1.8,
+              "toastFontFamily": "OpenSans-ExtraBoldItalic",
+              "toastFontColor": "#FFFFFF",
+              "titleOpacity": 1,
+              "backgroundColor": "#000000",
+              "backgroundOpacity": 0.7,
+              "borderColor": "#ffffff",
+              "borderOpacity": 0.8,
+              "titleSize": 3.3,
+              "titleFontFamily": "OpenSans-ExtraBoldItalic",
+              "titleColor": "#FFFFFF",
+              "statSubduedSize": 3.4,
+              "statSubduedFontFamily": "OpenSans-Bold",
+              "statSubduedColor": "#FFFFFF",
+              "statSubduedOpacity": 0.8,
+              "statBrightSize": 3.4,
+              "statBrightFontFamily": "OpenSans-ExtraBold",
+              "statBrightColor": "#FFFFFF",
+              "statBrightOpacity": 1,
+              "teamsFontFamily": "OpenSans-ExtraBoldItalic",
+              "teamsFontColor": "#FFFFFF",
+              "teamsFontOpacity": 0.8,
+              "teamsFontSize": 3,
+              "dateFontFamily": "OpenSans-MediumItalic",
+              "dateFontColor": "#FFFFFF",
+              "dateFontOpacity": 0.8,
+              "dateFontSize": 3
+            },
+            "floorMarkers": {
+              "missed": {
+                "marker": "x",
+                "color": "#D02D09",
+                "opacity": 0.9
+              },
+              "made": {
+                "marker": "o",
+                "color": "#1CAF4E",
+                "opacity": 0.9
+              }
+            }
+          },
+          "leaderBoardConfigurables": {
+            "distanceFromCamera": 60,
+            "backgroundColor": "#000000",
+            "opacity": 0.7,
+            "endTitle": "GAME LEADERS",
+            "titleSize": 4.4,
+            "nameSize": 1.8,
+            "scrSize": 1.8,
+            "titleFontFamily": "OpenSans-ExtraBoldItalic",
+            "nameFontFamily": "OpenSans-ExtraBold",
+            "scrFontFamily": "OpenSans-ExtraBold",
+            "leaderBoardPositions": {
+              "HomeTeamA": [
+                0,
+                30,
+                30
+              ],
+              "HomeTeamB": [
+                0,
+                -30,
+                30
+              ],
+              "AwayTeamA": [
+                0,
+                30,
+                30
+              ],
+              "AwayTeamB": [
+                0,
+                -30,
+                30
+              ]
+            },
+            "colors": {
+              "hometeam": {
+                "highlight": "#19b5fd",
+                "title": "#19b5fd",
+                "titleBackground": "#FFFFFF",
+                "underscore": "#FFFFFF",
+                "underscoreOpacity": 0.8,
+                "name": "#FFFFFF",
+                "scr": "#FFFFFF"
+              },
+              "awayTeam": {
+                "highlight": "#19fda4",
+                "title": "#19fda4",
+                "titleBackground": "#FFFFFF",
+                "underscore": "#FFFFFF",
+                "underscoreOpacity": 0.8,
+                "name": "#FFFFFF",
+                "scr": "#FFFFFF"
+              }
+            }
+          },
+          "playerCardConfigurables": {
+            "distanceFromCamera": 60,
+            "nameSize": 4.4,
+            "shotTypeSize": 3.2,
+            "scrSize": 6,
+            "backgroundColor": "#000000",
+            "backgroundOpacity": 0.7,
+            "shotTypeFontFamily": "OpenSans-ExtraBoldItalic",
+            "nameFontFamily": "OpenSans-ExtraBoldItalic",
+            "scrFontFamily": "OpenSans-ExtraBold",
+            "playerColors": {
+              "homeTeam": {
+                "name": "#19b5fd",
+                "shotType": "#FFFFFF",
+                "shotTypeBackground": "#FFFFFF",
+                "success": "#FFFFFF",
+                "attempt": "#FFFFFF",
+                "attemptOpacity": 0.6,
+                "highlight": "#19b5fd",
+                "scr": "#FFFFFF"
+              },
+              "awayTeam": {
+                "name": "#19fda4",
+                "shotType": "#FFFFFF",
+                "shotTypeBackground": "#FFFFFF",
+                "success": "#FFFFFF",
+                "attempt": "#FFFFFF",
+                "attemptOpacity": 0.6,
+                "endTitle": "#FFFFFF",
+                "highlight": "#19fda4",
+                "scr": "#FFFFFF"
+              }
+            }
+          },
+          "registrationFailureInterval": 5,
+          "debugInfoUpdateTime": 0.25,
+          "defaultExposureBias": -2,
+          "maxTrackingFailure": 3,
+          "maxVideoRecordLength": 34,
+          "shotTrailAnimationDelay": 0.05,
+          "experienceLayerColor": "#0095D2",
+          "bottomPanelThemeColor": "#0095D2",
+          "shotTypeRoundBorderColor": "#FFFFFF",
+          "zoomAnimationDelay": 0.5,
+          "tiltLimitLow": 45,
+          "tiltLimitHigh": 135,
+          "minLightLevel": 0,
+          "shotTrailInterval": 0.5,
+          "__sponsorImageUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/sponser.png",
+          "__gameLogoUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/gamelogo.png",
+          "__watermarkImageUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/att_gl_watermark.png",
+          "__alertImageUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/Alerticon.png",
+          "recordingUploadOptionInterval": 8,
+          "watermarkPosition": "bottomRight",
+          "watermarkOpacity": 0.75,
+          "watermarkScale": 1,
+          "watermarkAspectRatio": 1.46,
+          "__iOSWatermarkImageUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/att_gl_watermark.png",
+          "iOSWatermarkPosition": "bottomRight",
+          "iOSWatermarkOpacity": 0.75,
+          "iOSWatermarkAspectRatio": 1.46,
+          "iOSWatermarkScale": 1,
+          "connectingMessage": "Finding your seat...",
+          "isHeatmapEnable": true,
+          "defaultPlayerImageUrl": "https://quintarpub.blob.core.windows.net/nba/Test_Images/PlayerImage.png",
+          "gameLogoPosition": "topLeft",
+          "isRecordFeatureEnable": true,
+          "videoOrientation": {
+               "iPhone11iOS15.5": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+               "iPhone11iOS15.6": "1.0,0.0,0.0,1.0,0.0,0.0,true",
+               "iPhone11iOS16.0.2": "1.0,0.0,0.01.0,0.0,0.0,true",
+               "iPhone13iOS15": "0.5,1.0,-1.0,0.5,20.0,10.0,false",
+               "iPhone14iOS16.1.1": "0.0,1.0,1.0,0.0,0.0,0.0,true",
+               "iPhone14ProiOS16": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+               "iPhone14ProMaxiOS16.0.2": "0.5,1.0,-1.0,0.5,20.0,10.0,true",
+               "iPhone8iOS15.5": "0.0,-1.0,1.0,0.0,0.0,0.0,true"         
+           }
+        }
+      ]
+    },
+    "connect": {
+      "lid": "nba",
+      "gid": "warriors",
+      "fops": [
+        {
+          "id": "mat",
+          "apiEntrypointUrl": "http://23.31.148.90:7777/platform",
+          "apiEntrypointUrlold": "https://nba-dev.platform.quintar.ai/gleague-Apr10/platform",
+          "AWS_apiEntrypointUrl": "https://pgat-stag.platform.quintar.ai/multisport/platform",
+          "AZURE_apiEntrypointUrl": "https://nba-app-gateway-dev.platform.quintar.ai/platform/",
+          "registrationDelay": 4,
+          "lightEstimationThreshold": 0,
+          "jpegCompression": 1,
+          "jpegScale": 1,
+          "confidenceHighThreshold": 61,
+          "confidenceIndex": 75,
+          "confidenceMediumThreshold": 31,
+          "confidenceThreshold": 50,
+          "fourcc": "Y420",
+          "longSecs": 30,
+          "mediumSecs": 10,
+          "shortSecs": 7,
+          "testImageUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.jpeg",
+          "testJsonUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.json"
+        }
+      ]
+    },
+    "sportData": {
+      "lid": "vegas",
+      "sid": "2024",
+      "gid": "1522400053",
+      "preGID": "1522200006",
+      "apiEntrypointUrl": "https://dd98ig5ff6.execute-api.us-east-1.amazonaws.com/dev",
+      "apiEntrypointUrl1": "https://nbafuncappstag.azurewebsites.net/api/platform",
+      "liveDataUrl": "",
+      "liveDataUrl2": "tcp://192.168.1.10:8001,tcp://192.168.1.10:8002",
+      "generic": 0,
+      "stag_generic": 0,
+      "liveDataUpdateInterval" : 10,
+      "liveDataTimeout" : 10,
+      "genericData": {
+        "player": {
+          "homeFN": "Home",
+          "visitorFN": "Visitor",
+          "hs": "https://nbadatalakesdev.blob.core.windows.net/nba/nba_app/assets/PlayerGeneric.png"
+        },
+        "home": {
+          "na": "Home",
+          "ci": "Home",
+          "ab": "H",
+          "colors": "#91DC00",
+          "logo": "https://nbadatalakesdev.blob.core.windows.net/nba/nba_app/assets/H_Logo.png"
+        },
+        "visitor": {
+          "na": "Visitor",
+          "ci": "Visitor",
+          "ab": "V",
+          "colors": "#2bc1f9",
+          "logo": "https://nbadatalakedev.blob.core.windows.net/nba/nba_app/assets/V_Logo.png"
+        }
+      }
+    },
+    "test": {
+      "cpuImageWidth": 1920,
+      "cpuImageHeight": 1080,
+      "fops": [
+        {
+          "id": "mat",
+          "outlines": [
+            {
+              "outlineUrl": "https://nba-dev.configs.quintar.ai/mba/outlines/Observatory_Arena/court0-arrow.json",
+              "color": "#009FDB",
+              "opacity": 1,
+              "radius": 0.3
+            }
+          ],
+           "testImageUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.jpeg",
+           "testJsonUrl": "https://nba-dev.configs.quintar.ai/nba/test_images/sl-2024-test.json"
+        }
+      ]
+    }
+  }
