@@ -9,6 +9,7 @@
         0.25,
         0.125
     ],
+    "defaultImageScale": 0.5,
     "modelOptions":{
         "hawks-practice": {
             "contours": "NBA_court.json",
