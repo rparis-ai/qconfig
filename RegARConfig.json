@@ -1,0 +1,77 @@
+{
+    "imageScaleOptions": [
+        1.0,
+        0.875,
+        0.75,
+        0.625,
+        0.5,
+        0.375,
+        0.25,
+        0.125
+    ],
+    "modelOptions":{
+        "hawks-practice": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "hawks",
+            "FOP": "practice"
+        },
+        "kentucky-mat": {
+            "contours": "court0-arrow-uk.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "cats",
+            "FOP": "mat"
+        },
+        "kentucky-mat-mlb": {
+            "contours": "MLB_contours.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "mlb",
+            "GID": "cats",
+            "FOP": "mat"
+        },
+        "summer-league": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "summer-league",
+            "GID": "all",
+            "FOP": "thomas-mack"
+        },
+        "truist": {
+            "contours": "MLB_contours.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "mlb",
+            "GID": "braves",
+            "FOP": "truist"
+        },
+        "warriors-mat": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "warriors",
+            "FOP": "mat"
+        },
+        "warriors-mat-mlb": {
+            "contours": "MLB_contours.json",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "mlb",
+            "GID": "warriors",
+            "FOP": "mat"
+        }
+    }
+}
