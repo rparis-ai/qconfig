@@ -21,6 +21,15 @@
             "GID": "hawks",
             "FOP": "practice"
         },
+        "state-farm": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "https",
+            "HOST": "pgat-stag.platform.quintar.ai",
+            "PORT": "443/multisport",
+            "LID": "hawks",
+            "GID": "hawks",
+            "FOP": "hawks"
+        },
         "kentucky-mat": {
             "contours": "court0-arrow-uk.json",
             "PROTOCOL": "http",
