@@ -23,9 +23,9 @@
         },
         "state-farm": {
             "contours": "NBA_court.json",
-            "PROTOCOL": "https",
-            "HOST": "pgat-stag.platform.quintar.ai",
-            "PORT": "443/multisport",
+            "PROTOCOL": "http",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
             "LID": "hawks",
             "GID": "hawks",
             "FOP": "hawks"
