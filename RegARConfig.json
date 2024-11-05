@@ -10,8 +10,18 @@
         0.125
     ],
     "defaultImageScale": 0.5,
-    "defaultModelString": "hawks-practice",
+    "defaultModelString": "hawks-arena",
     "modelOptions":{
+        "hawks-arena": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "https",
+            "HOST": "nba-prod.platform.quintar.ai",
+            "PORT": "443",
+            "DID": "hawks24"
+            "LID": "nba",
+            "GID": "002240015",
+            "FOP": "hawks"
+        },
         "hawks-practice": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
