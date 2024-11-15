@@ -22,6 +22,15 @@
             "GID": "0022400012",
             "FOP": "hawks"
         },
+        "hawks-arena2": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "https",
+            "HOST": "34.229.122.201",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "hawks",
+            "FOP": "hawks"
+        },
         "hawks-practice": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
