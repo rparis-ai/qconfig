@@ -24,7 +24,7 @@
         },
         "hawks-arena2": {
             "contours": "NBA_court.json",
-            "PROTOCOL": "https",
+            "PROTOCOL": "http",
             "HOST": "34.229.122.201",
             "PORT": "7777",
             "LID": "nba",
