@@ -19,7 +19,7 @@
             "PORT": "443",
             "DID": "hawks24",
             "LID": "nba",
-            "GID": "0022400623",
+            "GID": "0022400532",
             "FOP": "hawks"
         },
         "hawks-arena2": {
@@ -29,7 +29,7 @@
             "PORT": "7777",
             "LID": "nba",
             "GID": "hawks",
-            "FOP": "base"
+            "FOP": "city"
         },
         "hawks-practice": {
             "contours": "NBA_court.json",
