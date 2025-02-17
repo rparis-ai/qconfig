@@ -19,8 +19,8 @@
             "PORT": "443",
             "DID": "all-star24",
             "LID": "nba",
-            "GID": "0032400031",
-            "FOP": "hawks"
+            "GID": "all-star",
+            "FOP": "oracle-full"
         },
         "hawks-arena": {
             "contours": "NBA_court.json",
