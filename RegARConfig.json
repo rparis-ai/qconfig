@@ -10,7 +10,7 @@
         0.125
     ],
     "defaultImageScale": 0.5,
-    "defaultModelString": "all-star",
+    "defaultModelString": "hawks-arena",
     "modelOptions":{
         "hawks-arena": {
             "contours": "NBA_court.json",
