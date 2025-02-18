@@ -40,15 +40,6 @@
             "GID": "hawks",
             "FOP": "practice"
         },
-        "state-farm": {
-            "contours": "NBA_court.json",
-            "PROTOCOL": "http",
-            "HOST": "34.229.122.201",
-            "PORT": "7777",
-            "LID": "hawks",
-            "GID": "hawks",
-            "FOP": "hawks"
-        },
         "kentucky-mat": {
             "contours": "court0-arrow-uk.json",
             "PROTOCOL": "http",
