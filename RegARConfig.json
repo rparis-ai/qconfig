@@ -23,7 +23,7 @@
             "FOP": "hawks"
         },
         "hawks-arena2": {
-            "contours": "NBA_court.json",
+            "contours": "https://raw.githubusercontent.com/rparis-ai/qconfig/refs/heads/main/hawks_court.json",
             "PROTOCOL": "http",
             "HOST": "34.229.122.201",
             "PORT": "7777",
