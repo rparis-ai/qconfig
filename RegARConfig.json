@@ -19,11 +19,11 @@
             "PORT": "443",
             "DID": "hawks24",
             "LID": "nba",
-            "GID": "0022400825",
+            "GID": "0022400851",
             "FOP": "hawks"
         },
         "hawks-arena2": {
-            "contours": "https://raw.githubusercontent.com/rparis-ai/qconfig/refs/heads/main/hawks_court.json",
+            "contours": "NBA_court.json",
             "PROTOCOL": "http",
             "HOST": "34.229.122.201",
             "PORT": "7777",
