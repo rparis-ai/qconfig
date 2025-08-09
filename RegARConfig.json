@@ -76,7 +76,7 @@
             "GID": "braves",
             "FOP": "truist"
         },
-        "warriors-mat": {
+        "warriors-75-mat-gazoo": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
             "HOST": "34.229.122.201",
@@ -84,6 +84,35 @@
             "LID": "nba",
             "GID": "warriors",
             "FOP": "mat"
+        },
+        "warriors-75-mat": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "https",
+            "HOST": "nba-prod.platform.quintar.ai",
+            "PORT": "443",
+            "DID": "hawks24",
+            "LID": "gleague",
+            "GID": "warriors",
+            "FOP": "mat"
+        },
+        "warriors-base-mat-beast": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "HOST": "23.31.148.90",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "warriors",
+            "FOP": "mat2"
+        },
+        "warriors-base-mat": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "https",
+            "HOST": "nba-prod.platform.quintar.ai",
+            "PORT": "443",
+            "DID": "hawks24",
+            "LID": "nba",
+            "GID": "gleague",
+            "FOP": "mat2"
         },
         "warriors-mat-mlb": {
             "contours": "MLB_contours.json",
