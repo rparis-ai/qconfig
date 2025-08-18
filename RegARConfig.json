@@ -11,6 +11,8 @@
     ],
     "defaultImageScale": 0.5,
     "defaultModelString": "hawks-arena",
+    "cpuImageResolution": "1920x1080",
+    "textureResolution": "1920x1080",
     "modelOptions":{
         "hawks-arena": {
             "contours": "NBA_court.json",
