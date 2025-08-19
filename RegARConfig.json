@@ -9,7 +9,7 @@
         0.25,
         0.125
     ],
-    "defaultImageScale": 1.0,
+    "defaultImageScale": 0.5,
     "defaultModelString": "hawks-arena",
     "cpuImageResolution": "1280x720",
     "textureResolution": "1920x1080",
