@@ -112,8 +112,8 @@
             "HOST": "nba-prod.platform.quintar.ai",
             "PORT": "443",
             "DID": "hawks24",
-            "LID": "nba",
-            "GID": "gleague",
+            "LID": "gleague",
+            "GID": "warriors",
             "FOP": "mat2"
         },
         "warriors-mat-mlb": {
