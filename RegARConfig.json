@@ -24,41 +24,14 @@
             "GID": "0022500832",
             "FOP": "hawks"
         },
-        "dense-hawks": {
-            "contours": "NBA_court.json",
-            "PROTOCOL": "http",
-            "HOST": "34.229.122.201",
-            "PORT": "7777",
-            "LID": "nba",
-            "GID": "hawks",
-            "FOP": "dense"
-        },
-        "dodgers-beast": {
-            "contours": "MLB_contours.json",
-            "PROTOCOL": "http",
-            "HOST": "23.31.148.90",
-            "PORT": "7777",
-            "LID": "mlb",
-            "GID": "nlcs",
-            "FOP": "dodgers"
-        },
-        "dodgers-nba-beast": {
-            "contours": "NBA_court.json",
-            "PROTOCOL": "http",
-            "HOST": "23.31.148.90",
-            "PORT": "7777",
-            "LID": "nba",
-            "GID": "hawks",
-            "FOP": "dodgers"
-        },
         "warriors-75-mat": {
             "contours": "NBA_court.json",
             "PROTOCOL": "https",
             "HOST": "nba-prod.platform.quintar.ai",
             "PORT": "443",
             "DID": "hawks24",
-            "LID": "gleague",
-            "GID": "0022500594",
+            "LID": "nba",
+            "GID": "0022500850",
             "FOP": "mat"
         },
         "warriors-base-mat": {
@@ -66,19 +39,10 @@
             "PROTOCOL": "https",
             "HOST": "nba-prod.platform.quintar.ai",
             "PORT": "443",
-            "DID": "hawks24",
+            "DID": "nba",
             "LID": "gleague",
-            "GID": "0022500463",
+            "GID": "0022500850",
             "FOP": "mat2"
-        },
-        "warriors-mat-mlb": {
-            "contours": "MLB_contours.json",
-            "PROTOCOL": "http",
-            "HOST": "34.229.122.201",
-            "PORT": "7777",
-            "LID": "mlb",
-            "GID": "warriors",
-            "FOP": "mat"
         }
     }
 }
