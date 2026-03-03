@@ -10,7 +10,7 @@
         0.125
     ],
     "defaultImageScale": 0.5,
-    "defaultModelString": "hawks-arena",
+    "defaultModelString": "jon",
     "cpuImageResolution": "1280x720",
     "textureResolution": "1920x1080",
     "modelOptions":{
