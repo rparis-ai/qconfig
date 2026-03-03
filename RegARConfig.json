@@ -49,7 +49,7 @@
             "HOST": "nba-prod.platform.quintar.ai",
             "PORT": "443",
             "DID": "nba",
-            "LID": "gleague",
+            "LID": "nba",
             "GID": "0022500850",
             "FOP": "mat2"
         }
