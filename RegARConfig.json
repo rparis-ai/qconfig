@@ -37,7 +37,7 @@
         "jon": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
-            "HOST": "54.197.24.69",
+            "HOST": "3.88.211.15",
             "PORT": "7777",
             "LID": "nba",
             "GID": "0022500850",
