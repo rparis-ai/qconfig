@@ -34,6 +34,15 @@
             "GID": "0022500850",
             "FOP": "mat"
         },
+        "jon": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "HOST": "54.197.24.69",
+            "PORT": "7777",
+            "LID": "nba",
+            "GID": "0022500850",
+            "FOP": "mat"
+        },
         "warriors-base-mat": {
             "contours": "NBA_court.json",
             "PROTOCOL": "https",
