@@ -44,14 +44,14 @@
             "GID": "0022500850",
             "FOP": "mat"
         },
-        "jon": {
-            "contours": "NBA_court.json",
+        "ncaa-lacrosse-stadium": {
+            "contours": "lacrosse_field.json",
             "PROTOCOL": "http",
-            "HOST": "3.88.211.15",
+            "HOST": "98.81.202.151",
             "PORT": "7777",
-            "LID": "nba",
-            "GID": "0022500850",
-            "FOP": "mat"
+            "LID": "ncaa-lacrosse",
+            "GID": "the-ncaa-lacross-game",
+            "FOP": "some-ncaa-lacross-field"
         },
         "warriors-base-mat": {
             "contours": "NBA_court.json",
