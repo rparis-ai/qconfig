@@ -34,6 +34,16 @@
             "GID": "0022500850",
             "FOP": "mat"
         },
+        "warriors-75-mat-lacrosse": {
+            "contours": "lacrosse_field.json",
+            "PROTOCOL": "https",
+            "HOST": "nba-prod.platform.quintar.ai",
+            "PORT": "443",
+            "DID": "hawks24",
+            "LID": "nba",
+            "GID": "0022500850",
+            "FOP": "mat"
+        },
         "jon": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
