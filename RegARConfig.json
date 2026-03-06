@@ -49,9 +49,9 @@
             "PROTOCOL": "http",
             "HOST": "98.81.202.151",
             "PORT": "7777",
-            "LID": "ncaa-lacrosse",
-            "GID": "the-ncaa-lacross-game",
-            "FOP": "some-ncaa-lacross-field"
+            "LID": "ncaa_lacrosse",
+            "GID": "the_ncaa_lacross_game",
+            "FOP": "some_ncaa_lacross_field"
         },
         "warriors-base-mat": {
             "contours": "NBA_court.json",
