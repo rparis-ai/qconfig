@@ -10,7 +10,7 @@
         0.125
     ],
     "defaultImageScale": 0.5,
-    "defaultModelString": "jon",
+    "defaultModelString": "ncaa-lacrosse-stadium",
     "cpuImageResolution": "1280x720",
     "textureResolution": "1920x1080",
     "modelOptions":{
