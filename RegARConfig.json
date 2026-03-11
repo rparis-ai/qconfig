@@ -31,7 +31,7 @@
             "PORT": "443",
             "DID": "hawks24",
             "LID": "nba",
-            "GID": "0022500956",
+            "GID": "0022500850",
             "FOP": "mat"
         },
         "warriors-75-mat-lacrosse": {
@@ -41,7 +41,7 @@
             "PORT": "443",
             "DID": "hawks24",
             "LID": "nba",
-            "GID": "0022500956",
+            "GID": "0022500850",
             "FOP": "mat"
         },
         "ncaa-lacrosse-stadium": {
@@ -60,7 +60,7 @@
             "PORT": "443",
             "DID": "hawks24",
             "LID": "nba",
-            "GID": "0022500956",
+            "GID": "0022500850",
             "FOP": "mat2"
         }
     }
