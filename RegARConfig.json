@@ -66,11 +66,11 @@
         "warriors-big-mat": {
             "contours": "NBA_court.json",
             "PROTOCOL": "http",
-            "port": "7777",
-            "host": "23.31.148.90",
-            "lid": "go_cats",
-            "gid": "go_cats",
-            "fop": "go_cats"
+            "PORT": "7777",
+            "HOST": "23.31.148.90",
+            "LID": "go_cats",
+            "GID": "go_cats",
+            "FOP": "go_cats"
         }
     }
 }
