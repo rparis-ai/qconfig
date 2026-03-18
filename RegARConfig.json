@@ -62,6 +62,15 @@
             "LID": "nba",
             "GID": "0022500850",
             "FOP": "mat2"
+        },
+        "warriors-big-mat": {
+            "contours": "NBA_court.json",
+            "PROTOCOL": "http",
+            "port": "7777",
+            "host": "23.31.148.90",
+            "lid": "go_cats",
+            "gid": "go_cats",
+            "fop": "go_cats"
         }
     }
 }
